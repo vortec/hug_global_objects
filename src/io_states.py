@@ -21,7 +21,7 @@ class IOStates:
     or sysadmin fix the real problem first.
 
     This class assists you in following that philosophy, but does not
-    know about the real state of your connection.
+    know about the real states of your connections.
     """
     __initialized = False
     __redis = None
